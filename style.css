@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    1111g
 }
 
 .container {
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
+    height: 100%;
     width: 100%;
+    max-width: 1140px; ;
     /* 📍 Максимальная ширина для контейнера */
 }
 
