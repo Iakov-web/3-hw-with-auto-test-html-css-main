@@ -8,7 +8,6 @@
 .container {
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
-    height: 100%;
     width: 100%;
     max-width: 1140px; ;
     /* 📍 Максимальная ширина для контейнера */
@@ -34,15 +33,24 @@ header span {
     background-color: #fafaff;
     padding: 60px 0;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
 }
 
 .main-section .wrapper {
+    display: flex;
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
 .text-wrapper {
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
+    min-width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title {
